@@ -13,7 +13,7 @@ variable "pet_prefix" {
 variable "pet_separator" {
   type        = string
   description = "The character to separate words in the pet name with."
-  default     = "-"
+  default     = "---"
 }
 
 variable "trigger_change" {
